@@ -13,6 +13,7 @@ html {
 .page {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -73,7 +74,7 @@ video {
 /* button */
 
 .button {
-  height: 34px;
+  min-height: 34px;
   border: 1px solid currentColor;
   color: #fff;
   font-family: inherit;
